@@ -1,0 +1,16 @@
+{
+  "extends": [
+    "config:base"
+  ],
+  "pinVersions": false,
+  "prHourlyLimit": 0,
+  "packageRules": [
+    {
+      "depTypeList": [
+        "devDependencies"
+      ],
+      "enabled": false
+    }
+  ],
+  "upgradeInRange": true
+}
